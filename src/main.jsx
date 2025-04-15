@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router'
 import { AuthProvider } from './context/AuthContext';
 import { PrivateRoute } from './routes/PrivateRoutes';
-import Signup from './pages/signup.jsx'
+import Signup from './pages/Signup.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import LoanRequests from './pages/LoanRequests.jsx'
 import CreateLoan from './pages/CreateLoan.jsx'
